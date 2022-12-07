@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Infraestrutura como CÃ³digo - Script de Provisionamento de um Servidor Web (Apache)"
+echo "Infraestrutura como código - Script de Provisionamento de um Servidor Web (Apache)"
 
 apt update
 apt upgrade -y
@@ -11,7 +11,7 @@ apt install apache2 -y
 echo "Instalando pacote unzip"
 apt install unzip -y
 
-echo "Baixando aplicaÃ§Ã£o disponivel GITHUB"
+echo "Baixando aplicação disponivel GITHUB"
 dpkg -i https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip /tmp
 
 unzip main.zip
